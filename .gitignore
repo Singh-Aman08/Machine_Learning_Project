@@ -19,6 +19,7 @@ lib64/
 mlenv/
 parts/
 sdist/
+artifacts/
 var/
 wheels/
 share/python-wheels/
@@ -209,3 +210,4 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+logs/
