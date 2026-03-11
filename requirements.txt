@@ -1,3 +1,8 @@
-Numpy
-Pandas
-Seaborn
+numpy
+pandas
+seaborn
+ipykernel
+matplotlib
+scikit-learn
+dill
+
