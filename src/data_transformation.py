@@ -10,6 +10,7 @@ from sklearn.impute import SimpleImputer
 from exception import CustomException
 from rootlogger import logger
 from utils import saveobject
+from sklearn.preprocessing import StandardScaler
 
 @dataclass
 class DataTranformationConfig:
@@ -23,11 +24,15 @@ class DataTransformation:
         
         try:
             categorical_columns = ["gender", "race_ethnicity", "parental_level_of_education", "lunch", "test_preparation_course"]
+            num_columns = ["math_score","reading_score"]
+            
             
             cat_pipeline = Pipeline(steps = [("imputer", SimpleImputer(strategy="most_frequent")),
                                              ("Encoder", OneHotEncoder(handle_unknown = "ignore",  drop="first"))])
+            num_pipeline = Pipeline(steps =[("imputer", SimpleImputer(strategy="median")), ("StandardScalar", StandardScaler())])
             
-            preprocessor = ColumnTransformer([("Categorical Transformation", cat_pipeline, categorical_columns)])
+            preprocessor = ColumnTransformer([("Categorical Transformation", cat_pipeline, categorical_columns),
+                                              ("Numerical Transformation", num_pipeline, num_columns)])
             
             return preprocessor
             
@@ -49,11 +54,11 @@ class DataTransformation:
             processing_obj = self.get_data_transformer_object()
             logger.info(f"Processor Object Created")
             
-            input_feature_train_df = train_df.drop(columns=["average"])
-            target_feature_train_ser = train_df["average"]
+            input_feature_train_df = train_df.drop(columns=["writing_score"])
+            target_feature_train_ser = train_df["writing_score"]
             
-            input_feature_test_df = test_df.drop(columns=["average"])
-            target_feature_test_ser = test_df["average"]
+            input_feature_test_df = test_df.drop(columns=["writing_score"])
+            target_feature_test_ser = test_df["writing_score"]
             
             processed_train_feature_arr = processing_obj.fit_transform(input_feature_train_df)
             processed_test_feature_arr = processing_obj.transform(input_feature_test_df)

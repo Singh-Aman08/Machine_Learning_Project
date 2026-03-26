@@ -3,6 +3,7 @@ from exception import CustomException
 import dill
 import sys
 from sklearn.metrics import r2_score
+from sklearn.model_selection import RandomizedSearchCV
 
 def saveobject(file_path, obj):
     try:
@@ -16,13 +17,19 @@ def saveobject(file_path, obj):
     except Exception as e:
         raise CustomException(e,sys)
 
-def evaluate_model(Xtrain, Xtest, Ytrain, Ytest, Model):
+def evaluate_model(Xtrain, Xtest, Ytrain, Ytest, Model, params):
     try:
         report = {}
         
         for i in Model:
             mod = Model.get(i)
+            param = params.get(i)
+            
+            rs = RandomizedSearchCV(mod, param, cv = 5, n_jobs=-1)
+            rs.fit(Xtrain, Ytrain)
+            mod.set_params(**rs.best_params_)
             mod.fit(Xtrain, Ytrain)
+            
             
             Ytrain_pred = mod.predict(Xtrain)
             

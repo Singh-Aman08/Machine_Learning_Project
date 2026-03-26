@@ -22,7 +22,6 @@ class DataIngestion:
         logger.info("Entered the data ingestion method")
         try:
             df = pd.read_csv(r"C:\Users\Aman Kumar Singh\Desktop\ML_Project\Machine_Learning_Project\data\cleaned_data.csv")
-            df = df.iloc[ : , 1:]
             logger.info("Completed data reading")
             
             os.makedirs("artifacts", exist_ok=True)
