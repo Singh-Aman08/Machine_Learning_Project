@@ -62,7 +62,6 @@ class ModelTrainer:
             },
 
             "Linear Regression": {
-                # LinearRegression has very few hyperparameters; could tune 'fit_intercept' and 'normalize' (if old sklearn)
                 'fit_intercept': [True, False],
                 'positive': [True, False]
             },
@@ -70,7 +69,7 @@ class ModelTrainer:
             "K-Nearest Neighbours": {
                 'n_neighbors': [3, 5, 7, 9, 11],
                 'weights': ['uniform', 'distance'],
-                'p': [1, 2]  # 1=Manhattan, 2=Euclidean
+                'p': [1, 2] 
             },
 
             "Xgboost": {
@@ -106,16 +105,16 @@ class ModelTrainer:
             model_report : dict = evaluate_model(Xtrain = x_train, Xtest = x_test, Ytrain = y_train, Ytest = y_test, Model = model, params = param_grids)
             logger.info(f"Model Evaluation Completed")
             
-            best_model_score = max([score for score, mod in model_report.values()])
+            best_model_score = max([score for score, _, _ in model_report.values()])
             
             for i in model_report:
                 if model_report[i][0] == best_model_score:
-                    best_model = model_report[i][1] 
+                    best_model = model_report[i][2] 
             
             saveobject(self.model_trainer_config.trained_model_file_path, best_model)
             logger.info(f"Model is saved in {self.model_trainer_config.trained_model_file_path}")
             
-            return best_model, best_model_score
+            return best_model, best_model_score, model_report
                 
         except Exception as e:
             logger.error(f"Model Training Failed")
