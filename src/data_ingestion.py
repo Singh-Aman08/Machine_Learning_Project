@@ -6,6 +6,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
 from data_transformation import DataTransformation
+from model_trainer import ModelTrainer
 
 @dataclass
 class DataIngestionCongig:
@@ -21,6 +22,7 @@ class DataIngestion:
         logger.info("Entered the data ingestion method")
         try:
             df = pd.read_csv(r"C:\Users\Aman Kumar Singh\Desktop\ML_Project\Machine_Learning_Project\data\cleaned_data.csv")
+            df = df.iloc[ : , 1:]
             logger.info("Completed data reading")
             
             os.makedirs("artifacts", exist_ok=True)
@@ -45,8 +47,16 @@ class DataIngestion:
 if __name__ == "__main__":
     obj = DataIngestion()
     train_path, test_path = obj.initiate_data_ingestion()
+    
     obj1 = DataTransformation()
-    obj1.initiate_data_transformation(train_path, test_path)
+    train_arr, test_arr, _ = obj1.initiate_data_transformation(train_path, test_path)
+    
+    obj3 = ModelTrainer()
+    model_name, score =  obj3.initiate_model_trainer( train_arr, test_arr)
+    
+    print (model_name, score)
+    
+    
     
     
         
