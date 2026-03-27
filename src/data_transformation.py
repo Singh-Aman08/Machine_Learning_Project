@@ -17,9 +17,9 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.impute import SimpleImputer
 
-from exception import CustomException
-from rootlogger import logger
-from utils import saveobject
+from src.exception import CustomException
+from src.rootlogger import logger
+from src.utils import save_object
 
 
 @dataclass
@@ -141,7 +141,7 @@ class DataTransformation:
             test_arr: np.ndarray = np.c_[processed_test_feature_arr, target_feature_test_ser]
 
             # Save preprocessor object
-            saveobject(self.data_transformation_config.preprocessor_obj_file_path, processing_obj)
+            save_object(self.data_transformation_config.preprocessor_obj_file_path, processing_obj)
             logger.info(f"Preprocessor object saved at {self.data_transformation_config.preprocessor_obj_file_path}")
 
             return train_arr, test_arr, self.data_transformation_config.preprocessor_obj_file_path

@@ -19,7 +19,6 @@ lib64/
 mlenv/
 parts/
 sdist/
-artifacts/
 var/
 wheels/
 share/python-wheels/

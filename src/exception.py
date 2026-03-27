@@ -7,7 +7,7 @@ file name, line number, and error message.
 """
 
 import sys
-from rootlogger import logger
+from src.rootlogger import logger
 
 
 def error_message_detail(error_msg: str, error_detail: sys) -> str:

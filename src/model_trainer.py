@@ -19,9 +19,9 @@ from sklearn.neighbors import KNeighborsRegressor
 from sklearn.svm import SVR
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import r2_score
-from rootlogger import logger
-from exception import CustomException
-from utils import saveobject, evaluate_model
+from src.rootlogger import logger
+from src.exception import CustomException
+from src.utils import save_object, evaluate_model
 
 
 @dataclass
@@ -162,7 +162,7 @@ class ModelTrainer:
                     best_model = model_report[name][2]
 
             # Save the best model
-            saveobject(self.model_trainer_config.trained_model_file_path, best_model)
+            save_object(self.model_trainer_config.trained_model_file_path, best_model)
             logger.info(f"Best model saved at {self.model_trainer_config.trained_model_file_path}")
 
             return best_model, best_model_score, model_report

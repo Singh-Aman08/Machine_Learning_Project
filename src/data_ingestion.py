@@ -13,8 +13,8 @@ from typing import Tuple
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-from rootlogger import logger
-from exception import CustomException
+from src.rootlogger import logger
+from src.exception import CustomException
 
 
 @dataclass
