@@ -15,6 +15,7 @@ from src.data_ingestion import DataIngestion
 from src.model_trainer import ModelTrainer
 import warnings
 from typing import Tuple, Dict, Any
+import sys
 
 # Suppress warnings for cleaner output
 warnings.filterwarnings("ignore")
@@ -50,7 +51,7 @@ def model_score() -> Tuple[str, float, Dict[str, Tuple[float, float, Any]]]:
 
     except Exception as e:
         logger.error("Error occurred in model_score function.")
-        raise CustomException(e)
+        raise CustomException(e,sys)
 
 
 def report():
@@ -78,7 +79,7 @@ def report():
 
     except Exception as e:
         logger.error("Error occurred in report function.")
-        raise CustomException(e)
+        raise CustomException(e, sys)
 
 
 if __name__ == "__main__":

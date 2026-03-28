@@ -1,201 +1,201 @@
-gender,race_ethnicity,parental_level_of_education,lunch,test_preparation_course,math_score,reading_score,writing_score
-female,group C,associate's degree,standard,none,91,86,84
-female,group B,some college,free/reduced,completed,53,66,73
-male,group D,bachelor's degree,standard,none,80,73,72
-male,group C,some college,free/reduced,none,74,77,73
-male,group E,some college,standard,completed,84,83,78
-male,group D,associate's degree,free/reduced,none,81,75,78
-male,group B,associate's degree,free/reduced,completed,69,70,63
-female,group B,some high school,standard,completed,54,61,62
-male,group C,associate's degree,free/reduced,none,87,73,72
-male,group B,some high school,standard,completed,51,54,41
-male,group A,high school,free/reduced,none,45,47,49
-male,group E,some high school,standard,none,30,26,22
-female,group B,high school,free/reduced,completed,67,80,81
-female,group D,some college,free/reduced,none,49,65,61
-male,group D,some college,standard,completed,85,81,85
-female,group D,some high school,standard,completed,65,78,82
-male,group D,high school,standard,none,53,52,42
-male,group D,bachelor's degree,free/reduced,none,55,46,44
-female,group D,some high school,standard,none,48,58,54
-female,group D,associate's degree,free/reduced,none,56,65,63
-male,group C,master's degree,standard,none,79,72,69
-female,group C,bachelor's degree,free/reduced,completed,43,51,54
-female,group C,some college,free/reduced,completed,45,73,70
-female,group C,high school,free/reduced,none,36,53,43
-male,group D,some high school,free/reduced,completed,80,79,79
-male,group D,associate's degree,standard,none,80,75,77
-male,group D,bachelor's degree,standard,completed,68,74,74
-female,group C,associate's degree,standard,none,40,59,51
-female,group A,high school,free/reduced,completed,34,48,41
-female,group D,some college,free/reduced,none,49,58,60
-male,group B,some college,standard,none,62,61,57
-male,group D,some college,standard,completed,71,61,69
-male,group B,bachelor's degree,free/reduced,none,62,63,56
-male,group E,some college,standard,none,76,71,72
-male,group E,some college,standard,none,84,77,71
-female,group B,some college,free/reduced,none,45,53,55
-male,group D,associate's degree,free/reduced,none,77,78,73
-female,group D,some college,standard,none,69,77,77
-female,group C,master's degree,standard,none,73,78,74
-female,group C,some high school,free/reduced,none,0,17,10
-male,group C,associate's degree,standard,completed,82,75,77
-male,group B,some high school,standard,completed,65,66,62
-male,group D,bachelor's degree,standard,completed,67,61,68
-female,group A,some college,standard,none,54,63,67
-male,group D,associate's degree,free/reduced,none,90,87,75
-female,group E,high school,standard,completed,59,63,75
-male,group D,high school,free/reduced,none,74,70,69
-female,group C,high school,standard,none,29,29,30
-male,group D,some high school,standard,completed,89,88,82
-female,group A,high school,standard,completed,75,82,79
-male,group B,some college,standard,completed,71,75,70
-female,group D,associate's degree,standard,none,64,76,74
-male,group C,some college,standard,completed,79,79,78
-female,group B,some college,free/reduced,completed,48,56,58
-female,group C,some high school,standard,none,69,73,73
-female,group D,some college,standard,none,69,74,74
-male,group D,bachelor's degree,standard,none,88,78,83
-male,group C,associate's degree,standard,none,58,54,52
-male,group B,associate's degree,standard,none,87,85,73
-female,group A,some high school,standard,completed,85,90,92
-male,group A,some high school,standard,completed,46,41,43
-female,group C,some high school,free/reduced,completed,71,84,87
-female,group C,associate's degree,standard,none,81,77,79
-female,group B,some college,free/reduced,none,58,61,66
-male,group D,master's degree,free/reduced,completed,84,89,90
-female,group C,bachelor's degree,free/reduced,completed,66,74,81
-female,group D,some college,free/reduced,none,55,71,69
-male,group C,high school,free/reduced,none,59,53,52
-female,group D,some college,free/reduced,completed,58,63,73
-female,group D,associate's degree,standard,none,82,95,89
-male,group E,associate's degree,standard,completed,66,63,64
-female,group C,bachelor's degree,standard,none,81,88,90
-male,group C,some college,free/reduced,none,58,57,54
-female,group A,associate's degree,free/reduced,none,37,57,56
-male,group C,some high school,standard,completed,63,60,57
-male,group E,some high school,standard,completed,77,76,77
-female,group D,some college,standard,completed,85,86,98
-male,group B,associate's degree,free/reduced,none,57,56,57
-female,group A,some high school,standard,none,48,66,65
-male,group C,some high school,standard,none,51,52,44
-male,group D,some college,free/reduced,none,63,61,60
-male,group D,some high school,free/reduced,none,45,37,37
-male,group C,bachelor's degree,standard,none,83,78,73
-female,group C,some college,standard,none,60,72,74
-male,group B,bachelor's degree,standard,none,63,71,69
-female,group C,high school,free/reduced,none,62,67,64
-female,group D,some college,standard,completed,68,78,77
-female,group B,some high school,standard,completed,60,70,74
-female,group C,some high school,standard,completed,77,90,85
-male,group A,some college,free/reduced,none,28,23,19
-male,group C,master's degree,free/reduced,none,79,81,71
-female,group E,some college,standard,none,100,92,97
-male,group D,bachelor's degree,standard,none,69,58,57
-male,group B,high school,free/reduced,none,66,77,70
-female,group B,some college,standard,none,19,38,32
-male,group D,associate's degree,standard,none,75,68,64
-male,group D,some college,standard,none,60,63,59
-female,group A,some college,standard,none,58,70,67
-female,group C,associate's degree,standard,none,69,80,71
-female,group C,associate's degree,free/reduced,completed,56,68,70
-male,group C,associate's degree,standard,completed,73,78,72
-male,group E,some college,standard,none,66,57,52
-male,group A,associate's degree,standard,none,67,57,53
-female,group C,associate's degree,free/reduced,none,64,73,68
-male,group A,high school,standard,none,71,74,64
-male,group B,high school,standard,none,70,65,60
-male,group E,associate's degree,standard,none,53,45,40
-male,group C,high school,standard,none,75,81,71
-female,group B,high school,standard,completed,68,83,78
-female,group C,high school,standard,none,44,61,52
-female,group D,bachelor's degree,free/reduced,none,29,41,47
-female,group B,high school,free/reduced,none,71,87,82
-male,group A,high school,standard,none,57,51,54
-female,group A,bachelor's degree,standard,none,45,59,64
-female,group C,some college,free/reduced,none,76,83,88
-male,group C,high school,standard,none,61,56,55
-male,group C,some high school,free/reduced,completed,45,52,49
-male,group D,high school,standard,completed,55,41,48
-male,group B,high school,standard,completed,73,69,68
-male,group D,high school,free/reduced,completed,78,77,80
-female,group A,master's degree,free/reduced,none,50,67,73
-female,group C,some college,free/reduced,none,62,67,62
-male,group D,master's degree,standard,none,81,81,84
-female,group C,some high school,free/reduced,completed,64,79,77
-female,group D,some high school,standard,completed,64,60,74
-male,group D,some high school,standard,none,73,66,62
-female,group D,associate's degree,standard,completed,73,75,80
-female,group C,some high school,standard,completed,67,74,77
-male,group B,associate's degree,standard,none,61,42,41
-male,group C,some high school,standard,completed,67,73,68
-female,group D,some high school,standard,none,65,82,81
-male,group D,associate's degree,standard,none,80,75,69
-male,group D,some high school,free/reduced,none,59,42,41
-female,group E,master's degree,standard,completed,88,99,95
-female,group C,associate's degree,standard,none,62,74,70
-female,group C,high school,free/reduced,none,33,41,43
-female,group C,bachelor's degree,standard,completed,79,92,89
-male,group B,some high school,standard,completed,84,83,75
-male,group A,master's degree,free/reduced,none,73,74,72
-female,group A,associate's degree,free/reduced,none,41,51,48
-female,group E,associate's degree,free/reduced,none,50,56,54
-female,group B,high school,standard,completed,58,70,68
-male,group D,some high school,free/reduced,completed,55,59,59
-male,group D,high school,standard,none,45,48,46
-male,group D,some high school,standard,completed,88,74,75
-female,group B,associate's degree,free/reduced,none,46,61,55
-male,group A,some high school,standard,none,51,31,36
-male,group D,some high school,standard,none,75,74,69
-male,group E,some college,free/reduced,completed,49,52,51
-female,group E,high school,standard,none,75,86,79
-female,group E,high school,standard,completed,74,79,80
-female,group B,associate's degree,standard,completed,61,86,87
-male,group C,associate's degree,standard,none,62,65,58
-male,group C,some high school,free/reduced,none,68,63,54
-female,group D,master's degree,standard,none,78,91,96
-female,group E,some college,standard,none,71,70,76
-female,group D,high school,free/reduced,none,49,57,52
-female,group A,bachelor's degree,standard,none,59,72,70
-male,group E,bachelor's degree,free/reduced,completed,79,74,72
-female,group E,associate's degree,standard,none,51,51,54
-female,group C,bachelor's degree,standard,completed,56,79,72
-male,group B,high school,standard,completed,76,62,60
-female,group D,some college,standard,completed,69,79,81
-male,group C,some high school,free/reduced,completed,51,56,53
-male,group D,some college,standard,completed,82,82,88
-male,group C,some college,standard,none,73,74,61
-male,group C,high school,free/reduced,completed,40,46,50
-male,group E,some college,free/reduced,none,93,90,83
-female,group C,bachelor's degree,standard,completed,59,64,75
-female,group B,associate's degree,standard,none,73,76,80
-male,group B,some high school,standard,completed,85,84,78
-male,group E,associate's degree,standard,none,76,71,67
-female,group D,associate's degree,free/reduced,completed,77,89,98
-female,group D,some college,free/reduced,completed,67,86,83
-male,group D,some college,free/reduced,none,61,47,56
-female,group D,some high school,free/reduced,none,27,34,32
-male,group D,high school,standard,none,54,52,52
-female,group C,master's degree,free/reduced,completed,65,81,81
-female,group E,associate's degree,standard,none,87,94,95
-female,group C,some high school,standard,completed,70,82,76
-female,group B,high school,standard,none,54,64,68
-female,group C,high school,free/reduced,none,66,76,68
-female,group D,master's degree,free/reduced,completed,85,95,100
-male,group C,some high school,free/reduced,completed,56,61,60
-male,group E,master's degree,standard,none,90,85,84
-male,group E,high school,standard,none,70,55,56
-female,group B,bachelor's degree,standard,none,61,72,70
-male,group A,bachelor's degree,free/reduced,completed,49,58,60
-male,group C,high school,standard,none,81,66,64
-male,group B,some college,standard,completed,87,84,86
-male,group B,some high school,free/reduced,completed,49,50,52
-male,group B,some high school,standard,none,68,54,53
-male,group C,associate's degree,free/reduced,none,77,67,64
-female,group B,bachelor's degree,free/reduced,none,78,79,76
-male,group C,associate's degree,free/reduced,completed,60,51,56
-female,group D,high school,free/reduced,completed,52,57,56
-male,group E,associate's degree,standard,completed,62,56,53
-female,group B,some college,free/reduced,none,74,81,76
-female,group C,associate's degree,standard,none,65,77,74
-female,group D,some high school,standard,completed,61,74,72
+Unnamed: 0,gender,race_ethnicity,parental_level_of_education,lunch,test_preparation_course,math_score,reading_score,writing_score
+521,Female,Group C,Undergraduate,Standard Lunch,No Prep,91,86,84
+737,Female,Group B,Undergraduate,Free/Reduced Lunch,Completed Course,53,66,73
+740,Male,Group D,Undergraduate,Standard Lunch,No Prep,80,73,72
+660,Male,Group C,Undergraduate,Free/Reduced Lunch,No Prep,74,77,73
+411,Male,Group E,Undergraduate,Standard Lunch,Completed Course,84,83,78
+678,Male,Group D,Undergraduate,Free/Reduced Lunch,No Prep,81,75,78
+626,Male,Group B,Undergraduate,Free/Reduced Lunch,Completed Course,69,70,63
+513,Female,Group B,Intermediate,Standard Lunch,Completed Course,54,61,62
+859,Male,Group C,Undergraduate,Free/Reduced Lunch,No Prep,87,73,72
+136,Male,Group B,Intermediate,Standard Lunch,Completed Course,51,54,41
+811,Male,Group A,Intermediate,Free/Reduced Lunch,No Prep,45,47,49
+76,Male,Group E,Intermediate,Standard Lunch,No Prep,30,26,22
+636,Female,Group B,Intermediate,Free/Reduced Lunch,Completed Course,67,80,81
+973,Female,Group D,Undergraduate,Free/Reduced Lunch,No Prep,49,65,61
+938,Male,Group D,Undergraduate,Standard Lunch,Completed Course,85,81,85
+899,Female,Group D,Intermediate,Standard Lunch,Completed Course,65,78,82
+280,Male,Group D,Intermediate,Standard Lunch,No Prep,53,52,42
+883,Male,Group D,Undergraduate,Free/Reduced Lunch,No Prep,55,46,44
+761,Female,Group D,Intermediate,Standard Lunch,No Prep,48,58,54
+319,Female,Group D,Undergraduate,Free/Reduced Lunch,No Prep,56,65,63
+549,Male,Group C,Postgraduate,Standard Lunch,No Prep,79,72,69
+174,Female,Group C,Undergraduate,Free/Reduced Lunch,Completed Course,43,51,54
+371,Female,Group C,Undergraduate,Free/Reduced Lunch,Completed Course,45,73,70
+527,Female,Group C,Intermediate,Free/Reduced Lunch,No Prep,36,53,43
+210,Male,Group D,Intermediate,Free/Reduced Lunch,Completed Course,80,79,79
+235,Male,Group D,Undergraduate,Standard Lunch,No Prep,80,75,77
+101,Male,Group D,Undergraduate,Standard Lunch,Completed Course,68,74,74
+986,Female,Group C,Undergraduate,Standard Lunch,No Prep,40,59,51
+902,Female,Group A,Intermediate,Free/Reduced Lunch,Completed Course,34,48,41
+947,Female,Group D,Undergraduate,Free/Reduced Lunch,No Prep,49,58,60
+346,Male,Group B,Undergraduate,Standard Lunch,No Prep,62,61,57
+139,Male,Group D,Undergraduate,Standard Lunch,Completed Course,71,61,69
+621,Male,Group B,Undergraduate,Free/Reduced Lunch,No Prep,62,63,56
+499,Male,Group E,Undergraduate,Standard Lunch,No Prep,76,71,72
+370,Male,Group E,Undergraduate,Standard Lunch,No Prep,84,77,71
+198,Female,Group B,Undergraduate,Free/Reduced Lunch,No Prep,45,53,55
+687,Male,Group D,Undergraduate,Free/Reduced Lunch,No Prep,77,78,73
+584,Female,Group D,Undergraduate,Standard Lunch,No Prep,69,77,77
+901,Female,Group C,Postgraduate,Standard Lunch,No Prep,73,78,74
+59,Female,Group C,Intermediate,Free/Reduced Lunch,No Prep,0,17,10
+328,Male,Group C,Undergraduate,Standard Lunch,Completed Course,82,75,77
+96,Male,Group B,Intermediate,Standard Lunch,Completed Course,65,66,62
+312,Male,Group D,Undergraduate,Standard Lunch,Completed Course,67,61,68
+974,Female,Group A,Undergraduate,Standard Lunch,No Prep,54,63,67
+299,Male,Group D,Undergraduate,Free/Reduced Lunch,No Prep,90,87,75
+277,Female,Group E,Intermediate,Standard Lunch,Completed Course,59,63,75
+924,Male,Group D,Intermediate,Free/Reduced Lunch,No Prep,74,70,69
+601,Female,Group C,Intermediate,Standard Lunch,No Prep,29,29,30
+439,Male,Group D,Intermediate,Standard Lunch,Completed Course,89,88,82
+837,Female,Group A,Intermediate,Standard Lunch,Completed Course,75,82,79
+570,Male,Group B,Undergraduate,Standard Lunch,Completed Course,71,75,70
+879,Female,Group D,Undergraduate,Standard Lunch,No Prep,64,76,74
+261,Male,Group C,Undergraduate,Standard Lunch,Completed Course,79,79,78
+578,Female,Group B,Undergraduate,Free/Reduced Lunch,Completed Course,48,56,58
+23,Female,Group C,Intermediate,Standard Lunch,No Prep,69,73,73
+30,Female,Group D,Undergraduate,Standard Lunch,No Prep,69,74,74
+617,Male,Group D,Undergraduate,Standard Lunch,No Prep,88,78,83
+10,Male,Group C,Undergraduate,Standard Lunch,No Prep,58,54,52
+221,Male,Group B,Undergraduate,Standard Lunch,No Prep,87,85,73
+820,Female,Group A,Intermediate,Standard Lunch,Completed Course,85,90,92
+296,Male,Group A,Intermediate,Standard Lunch,Completed Course,46,41,43
+54,Female,Group C,Intermediate,Free/Reduced Lunch,Completed Course,71,84,87
+542,Female,Group C,Undergraduate,Standard Lunch,No Prep,81,77,79
+209,Female,Group B,Undergraduate,Free/Reduced Lunch,No Prep,58,61,66
+604,Male,Group D,Postgraduate,Free/Reduced Lunch,Completed Course,84,89,90
+692,Female,Group C,Undergraduate,Free/Reduced Lunch,Completed Course,66,74,81
+662,Female,Group D,Undergraduate,Free/Reduced Lunch,No Prep,55,71,69
+866,Male,Group C,Intermediate,Free/Reduced Lunch,No Prep,59,53,52
+70,Female,Group D,Undergraduate,Free/Reduced Lunch,Completed Course,58,63,73
+543,Female,Group D,Undergraduate,Standard Lunch,No Prep,82,95,89
+107,Male,Group E,Undergraduate,Standard Lunch,Completed Course,66,63,64
+493,Female,Group C,Undergraduate,Standard Lunch,No Prep,81,88,90
+590,Male,Group C,Undergraduate,Free/Reduced Lunch,No Prep,58,57,54
+741,Female,Group A,Undergraduate,Free/Reduced Lunch,No Prep,37,57,56
+292,Male,Group C,Intermediate,Standard Lunch,Completed Course,63,60,57
+289,Male,Group E,Intermediate,Standard Lunch,Completed Course,77,76,77
+652,Female,Group D,Undergraduate,Standard Lunch,Completed Course,85,86,98
+39,Male,Group B,Undergraduate,Free/Reduced Lunch,No Prep,57,56,57
+589,Female,Group A,Intermediate,Standard Lunch,No Prep,48,66,65
+307,Male,Group C,Intermediate,Standard Lunch,No Prep,51,52,44
+679,Male,Group D,Undergraduate,Free/Reduced Lunch,No Prep,63,61,60
+66,Male,Group D,Intermediate,Free/Reduced Lunch,No Prep,45,37,37
+275,Male,Group C,Undergraduate,Standard Lunch,No Prep,83,78,73
+67,Female,Group C,Undergraduate,Standard Lunch,No Prep,60,72,74
+318,Male,Group B,Undergraduate,Standard Lunch,No Prep,63,71,69
+548,Female,Group C,Intermediate,Free/Reduced Lunch,No Prep,62,67,64
+998,Female,Group D,Undergraduate,Standard Lunch,Completed Course,68,78,77
+714,Female,Group B,Intermediate,Standard Lunch,Completed Course,60,70,74
+753,Female,Group C,Intermediate,Standard Lunch,Completed Course,77,90,85
+327,Male,Group A,Undergraduate,Free/Reduced Lunch,No Prep,28,23,19
+382,Male,Group C,Postgraduate,Free/Reduced Lunch,No Prep,79,81,71
+451,Female,Group E,Undergraduate,Standard Lunch,No Prep,100,92,97
+522,Male,Group D,Undergraduate,Standard Lunch,No Prep,69,58,57
+218,Male,Group B,Intermediate,Free/Reduced Lunch,No Prep,66,77,70
+787,Female,Group B,Undergraduate,Standard Lunch,No Prep,19,38,32
+436,Male,Group D,Undergraduate,Standard Lunch,No Prep,75,68,64
+764,Male,Group D,Undergraduate,Standard Lunch,No Prep,60,63,59
+88,Female,Group A,Undergraduate,Standard Lunch,No Prep,58,70,67
+63,Female,Group C,Undergraduate,Standard Lunch,No Prep,69,80,71
+826,Female,Group C,Undergraduate,Free/Reduced Lunch,Completed Course,56,68,70
+716,Male,Group C,Undergraduate,Standard Lunch,Completed Course,73,78,72
+351,Male,Group E,Undergraduate,Standard Lunch,No Prep,66,57,52
+936,Male,Group A,Undergraduate,Standard Lunch,No Prep,67,57,53
+256,Female,Group C,Undergraduate,Free/Reduced Lunch,No Prep,64,73,68
+635,Male,Group A,Intermediate,Standard Lunch,No Prep,71,74,64
+644,Male,Group B,Intermediate,Standard Lunch,No Prep,70,65,60
+554,Male,Group E,Undergraduate,Standard Lunch,No Prep,53,45,40
+959,Male,Group C,Intermediate,Standard Lunch,No Prep,75,81,71
+168,Female,Group B,Intermediate,Standard Lunch,Completed Course,68,83,78
+917,Female,Group C,Intermediate,Standard Lunch,No Prep,44,61,52
+528,Female,Group D,Undergraduate,Free/Reduced Lunch,No Prep,29,41,47
+823,Female,Group B,Intermediate,Free/Reduced Lunch,No Prep,71,87,82
+985,Male,Group A,Intermediate,Standard Lunch,No Prep,57,51,54
+816,Female,Group A,Undergraduate,Standard Lunch,No Prep,45,59,64
+86,Female,Group C,Undergraduate,Free/Reduced Lunch,No Prep,76,83,88
+432,Male,Group C,Intermediate,Standard Lunch,No Prep,61,56,55
+184,Male,Group C,Intermediate,Free/Reduced Lunch,Completed Course,45,52,49
+978,Male,Group D,Intermediate,Standard Lunch,Completed Course,55,41,48
+534,Male,Group B,Intermediate,Standard Lunch,Completed Course,73,69,68
+294,Male,Group D,Intermediate,Free/Reduced Lunch,Completed Course,78,77,80
+892,Female,Group A,Postgraduate,Free/Reduced Lunch,No Prep,50,67,73
+425,Female,Group C,Undergraduate,Free/Reduced Lunch,No Prep,62,67,62
+713,Male,Group D,Postgraduate,Standard Lunch,No Prep,81,81,84
+260,Female,Group C,Intermediate,Free/Reduced Lunch,Completed Course,64,79,77
+237,Female,Group D,Intermediate,Standard Lunch,Completed Course,64,60,74
+559,Male,Group D,Intermediate,Standard Lunch,No Prep,73,66,62
+583,Female,Group D,Undergraduate,Standard Lunch,Completed Course,73,75,80
+445,Female,Group C,Intermediate,Standard Lunch,Completed Course,67,74,77
+867,Male,Group B,Undergraduate,Standard Lunch,No Prep,61,42,41
+800,Male,Group C,Intermediate,Standard Lunch,Completed Course,67,73,68
+599,Female,Group D,Intermediate,Standard Lunch,No Prep,65,82,81
+849,Male,Group D,Undergraduate,Standard Lunch,No Prep,80,75,69
+265,Male,Group D,Intermediate,Free/Reduced Lunch,No Prep,59,42,41
+995,Female,Group E,Postgraduate,Standard Lunch,Completed Course,88,99,95
+529,Female,Group C,Undergraduate,Standard Lunch,No Prep,62,74,70
+55,Female,Group C,Intermediate,Free/Reduced Lunch,No Prep,33,41,43
+120,Female,Group C,Undergraduate,Standard Lunch,Completed Course,79,92,89
+215,Male,Group B,Intermediate,Standard Lunch,Completed Course,84,83,75
+25,Male,Group A,Postgraduate,Free/Reduced Lunch,No Prep,73,74,72
+72,Female,Group A,Undergraduate,Free/Reduced Lunch,No Prep,41,51,48
+44,Female,Group E,Undergraduate,Free/Reduced Lunch,No Prep,50,56,54
+247,Female,Group B,Intermediate,Standard Lunch,Completed Course,58,70,68
+721,Male,Group D,Intermediate,Free/Reduced Lunch,Completed Course,55,59,59
+281,Male,Group D,Intermediate,Standard Lunch,No Prep,45,48,46
+893,Male,Group D,Intermediate,Standard Lunch,Completed Course,88,74,75
+914,Female,Group B,Undergraduate,Free/Reduced Lunch,No Prep,46,61,55
+810,Male,Group A,Intermediate,Standard Lunch,No Prep,51,31,36
+244,Male,Group D,Intermediate,Standard Lunch,No Prep,75,74,69
+822,Male,Group E,Undergraduate,Free/Reduced Lunch,Completed Course,49,52,51
+321,Female,Group E,Intermediate,Standard Lunch,No Prep,75,86,79
+643,Female,Group E,Intermediate,Standard Lunch,Completed Course,74,79,80
+158,Female,Group B,Undergraduate,Standard Lunch,Completed Course,61,86,87
+977,Male,Group C,Undergraduate,Standard Lunch,No Prep,62,65,58
+429,Male,Group C,Intermediate,Free/Reduced Lunch,No Prep,68,63,54
+941,Female,Group D,Postgraduate,Standard Lunch,No Prep,78,91,96
+462,Female,Group E,Undergraduate,Standard Lunch,No Prep,71,70,76
+309,Female,Group D,Intermediate,Free/Reduced Lunch,No Prep,49,57,52
+697,Female,Group A,Undergraduate,Standard Lunch,No Prep,59,72,70
+60,Male,Group E,Undergraduate,Free/Reduced Lunch,Completed Course,79,74,72
+884,Female,Group E,Undergraduate,Standard Lunch,No Prep,51,51,54
+595,Female,Group C,Undergraduate,Standard Lunch,Completed Course,56,79,72
+767,Male,Group B,Intermediate,Standard Lunch,Completed Course,76,62,60
+649,Female,Group D,Undergraduate,Standard Lunch,Completed Course,69,79,81
+650,Male,Group C,Intermediate,Free/Reduced Lunch,Completed Course,51,56,53
+865,Male,Group D,Undergraduate,Standard Lunch,Completed Course,82,82,88
+668,Male,Group C,Undergraduate,Standard Lunch,No Prep,73,74,61
+298,Male,Group C,Intermediate,Free/Reduced Lunch,Completed Course,40,46,50
+689,Male,Group E,Undergraduate,Free/Reduced Lunch,No Prep,93,90,83
+314,Female,Group C,Undergraduate,Standard Lunch,Completed Course,59,64,75
+310,Female,Group B,Undergraduate,Standard Lunch,No Prep,73,76,80
+361,Male,Group B,Intermediate,Standard Lunch,Completed Course,85,84,78
+479,Male,Group E,Undergraduate,Standard Lunch,No Prep,76,71,67
+110,Female,Group D,Undergraduate,Free/Reduced Lunch,Completed Course,77,89,98
+989,Female,Group D,Undergraduate,Free/Reduced Lunch,Completed Course,67,86,83
+486,Male,Group D,Undergraduate,Free/Reduced Lunch,No Prep,61,47,56
+363,Female,Group D,Intermediate,Free/Reduced Lunch,No Prep,27,34,32
+254,Male,Group D,Intermediate,Standard Lunch,No Prep,54,52,52
+259,Female,Group C,Postgraduate,Free/Reduced Lunch,Completed Course,65,81,81
+802,Female,Group E,Undergraduate,Standard Lunch,No Prep,87,94,95
+677,Female,Group C,Intermediate,Standard Lunch,Completed Course,70,82,76
+494,Female,Group B,Intermediate,Standard Lunch,No Prep,54,64,68
+670,Female,Group C,Intermediate,Free/Reduced Lunch,No Prep,66,76,68
+377,Female,Group D,Postgraduate,Free/Reduced Lunch,Completed Course,85,95,100
+526,Male,Group C,Intermediate,Free/Reduced Lunch,Completed Course,56,61,60
+845,Male,Group E,Postgraduate,Standard Lunch,No Prep,90,85,84
+137,Male,Group E,Intermediate,Standard Lunch,No Prep,70,55,56
+355,Female,Group B,Undergraduate,Standard Lunch,No Prep,61,72,70
+365,Male,Group A,Undergraduate,Free/Reduced Lunch,Completed Course,49,58,60
+942,Male,Group C,Intermediate,Standard Lunch,No Prep,81,66,64
+749,Male,Group B,Undergraduate,Standard Lunch,Completed Course,87,84,86
+948,Male,Group B,Intermediate,Free/Reduced Lunch,Completed Course,49,50,52
+829,Male,Group B,Intermediate,Standard Lunch,No Prep,68,54,53
+656,Male,Group C,Undergraduate,Free/Reduced Lunch,No Prep,77,67,64
+199,Female,Group B,Undergraduate,Free/Reduced Lunch,No Prep,78,79,76
+213,Male,Group C,Undergraduate,Free/Reduced Lunch,Completed Course,60,51,56
+408,Female,Group D,Intermediate,Free/Reduced Lunch,Completed Course,52,57,56
+332,Male,Group E,Undergraduate,Standard Lunch,Completed Course,62,56,53
+208,Female,Group B,Undergraduate,Free/Reduced Lunch,No Prep,74,81,76
+613,Female,Group C,Undergraduate,Standard Lunch,No Prep,65,77,74
+78,Female,Group D,Intermediate,Standard Lunch,Completed Course,61,74,72

@@ -18,7 +18,7 @@ import numpy as np
 from src.exception import CustomException
 
 
-def saveo_bject(file_path: str, obj: Any) -> str:
+def save_object(file_path: str, obj: Any) -> str:
     """
     Saves a Python object to disk using dill serialization.
 
