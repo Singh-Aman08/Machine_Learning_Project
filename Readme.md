@@ -1,7 +1,13 @@
-#  Student Performance Indicator (ML Project)
+#  Student Performance Indicator
+
+A complete end-to-end Machine Learning project that predicts a student's **writing score** based on demographic and academic features.  
+The project includes data ingestion, preprocessing, model training, evaluation, prediction pipeline, and a Streamlit web application.
+
+---
 
 ##  Project Overview
-This project predicts a student’s **writing score** based on various factors such as:
+
+This project aims to build a robust ML pipeline to predict student performance using features such as:
 
 - Gender  
 - Race/Ethnicity  
@@ -11,50 +17,101 @@ This project predicts a student’s **writing score** based on various factors s
 - Math Score  
 - Reading Score  
 
-The goal is to build a **machine learning pipeline** that processes data, trains multiple models, and selects the best-performing one.
+The target variable is:
+ **Writing Score**
 
 ---
 
-##  Project Workflow
+##  Tech Stack
 
-The pipeline follows these steps:
-
-### 1. Data Ingestion
-- Reads raw dataset  
-- Splits into train and test sets  
-- Saves datasets in `artifacts/`  
-
-### 2. Data Transformation
-- Handles missing values  
-- Encodes categorical features (OneHotEncoding)  
-- Scales numerical features (StandardScaler)  
-- Saves preprocessing object  
-
-### 3. Model Training & Evaluation
-- Trains multiple regression models  
-- Uses **RandomizedSearchCV** for hyperparameter tuning  
-- Evaluates using **R² score**  
-- Selects and saves the best model  
-
-### 4. Reporting
-- Displays train and test performance of all models  
-- Highlights the best model  
+- **Python**
+- **Pandas, NumPy**
+- **Scikit-learn**
+- **CatBoost, XGBoost**
+- **Dill (for model serialization)**
+- **Streamlit (for UI)**
+- **Logging & Exception Handling**
 
 ---
 
-##  Models Used
+##  ML Pipeline
 
-- Random Forest Regressor  
-- Decision Tree Regressor  
-- Gradient Boosting Regressor  
-- Linear Regression  
-- K-Nearest Neighbours  
-- XGBoost Regressor  
-- CatBoost Regressor  
-- AdaBoost Regressor  
-- Support Vector Regressor  
+The project follows a modular pipeline approach:
 
----
+### Components:
+
+- **Data Ingestion**
+  - Reads dataset
+  - Splits into train/test
+
+- **Data Transformation**
+  - Handles missing values
+  - Encoding & scaling using `ColumnTransformer`
+
+- **Model Training**
+  - Trains multiple models:
+    - Random Forest
+    - Decision Tree
+    - Gradient Boosting
+    - Linear Regression
+    - KNN
+    - XGBoost
+    - CatBoost
+    - AdaBoost
+    - SVM
+  - Hyperparameter tuning using `RandomizedSearchCV`
+
+- **Model Evaluation**
+  - Uses **R² Score** for performance comparison
+
+- **Prediction Pipeline**
+  - Loads trained model & preprocessor
+  - Transforms input data
+  - Generates predictions
 
 ##  Model Performance
 
+| Model                     | R2_Train | R2_Test |
+|--------------------------|----------|---------|
+| Random Forest            | 0.9646   | 0.9103  |
+| Decision Tree            | 0.9279   | 0.8963  |
+| Gradient Boosting        | 0.9935   | 0.9242  |
+| Linear Regression        | 0.9499   | 0.9381  |
+| K-Nearest Neighbours     | 0.9997   | 0.8954  |
+| XGBoost                  | 0.9672   | 0.9308  |
+| CatBoost                 | 0.9595   | 0.9251  |
+| AdaBoost                 | 0.9288   | 0.9165  |
+| Support Vector Machine   | 0.9496   | 0.9378  |
+
+ **Best Model:** Linear Regression  
+ **Test R² Score:** **0.9381**
+
+---
+## Project Files Description
+
+### Artifacts (`artifacts/`)
+- **model.pkl** – The trained machine learning model saved using `dill`.  
+- **preprocessor.pkl** – Preprocessing pipeline (`ColumnTransformer`) used for encoding and scaling features.  
+- **data.csv** – Original/raw dataset used for training and testing.  
+- **train.csv** – Training dataset split from the original data.  
+- **test.csv** – Test dataset split from the original data.  
+
+### Source Code (`src/`)
+- **__init__.py** – Marks the `src` folder as a Python package.  
+- **data_ingestion.py** – Reads the raw dataset, splits it into train and test sets, and saves them to `artifacts/`.  
+- **data_transformation.py** – Preprocesses data: handles missing values, encodes categorical features, scales numerical features, and returns a preprocessor object.  
+- **model_trainer.py** – Trains multiple regression models, performs hyperparameter tuning using `RandomizedSearchCV`, evaluates models, and selects the best one.  
+- **exception.py** – Custom exception class for consistent error handling across the project.  
+- **rootlogger.py** – Logging setup to track workflow progress and errors.  
+- **utils.py** – Utility functions such as saving objects (`dill`) and evaluating model performance.  
+
+### Main Scripts
+- **main.py** – Executes the full end-to-end machine learning pipeline: data ingestion → preprocessing → model training → evaluation.  
+- **predict.py** – Defines the prediction pipeline with a `CustomData` class for user inputs and a `PredictionPipeline` class for generating predictions.  
+- **app.py** – Streamlit web application for real-time prediction with interactive sliders for input features.  
+
+### Others
+- **setup.py** – Optional script for packaging and installing the project as a Python package.  
+- **requirements.txt** – Lists all Python dependencies required to run the project.  
+- **.gitignore** – Specifies files and folders to ignore in Git (e.g., artifacts, virtual environments).  
+- **README.md** – This file: provides project overview, instructions, and documentation.
