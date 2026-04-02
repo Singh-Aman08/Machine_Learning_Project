@@ -4,6 +4,26 @@ A complete end-to-end Machine Learning project that predicts a student's **writi
 The project includes data ingestion, preprocessing, model training, evaluation, prediction pipeline, and a Streamlit web application.
 
 ---
+##  About the Dataset
+
+This project uses the **Students Performance in Exams Dataset** sourced from Kaggle:  
+🔗 https://www.kaggle.com/datasets/spscientist/students-performance-in-exams  
+
+The dataset contains **1000 student records**, capturing performance across three core academic subjects:
+- **Mathematics**
+- **Reading**
+- **Writing**
+
+In addition to exam scores, the dataset includes several **demographic and socio-economic attributes** that may influence student performance, such as:
+- Gender  
+- Race/Ethnicity  
+- Parental level of education  
+- Lunch type  
+- Test preparation course completion  
+
+These features provide valuable context for analyzing patterns in student achievement and understanding how different factors impact academic outcomes.
+
+---
 
 ##  Project Overview
 
@@ -115,3 +135,21 @@ The project follows a modular pipeline approach:
 - **requirements.txt** – Lists all Python dependencies required to run the project.  
 - **.gitignore** – Specifies files and folders to ignore in Git (e.g., artifacts, virtual environments).  
 - **README.md** – This file: provides project overview, instructions, and documentation.
+
+## Setup & Installation
+
+1. **Clone the repository**
+
+2. **Create Virtual Environment** -> conda create -n mlproject python=3.13 ->  conda activate mlproject  
+
+3. **Install Dependencies** -> pip install -r requirements.txt  
+
+## How to Run
+
+1. **Run python main.py** : This will train models, evaluate performance, save model & preprocessor in artifacts/  
+
+2. **Run python predict.py** : This will take the data and predict the result. 
+
+3. **Run streamlit run app.py** : This will open in your browser, allowing you to start interacting with the Streamlit application. 
+---
+ 
