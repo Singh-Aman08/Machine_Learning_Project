@@ -152,4 +152,9 @@ The project follows a modular pipeline approach:
 
 3. **Run streamlit run app.py** : This will open in your browser, allowing you to start interacting with the Streamlit application. 
 ---
+## Author
+
+**Aman Kumar Singh**  
+MSc Data Science  
+University of Bristol
  
